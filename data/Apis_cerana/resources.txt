@@ -1,0 +1,14 @@
+A.cerana参考データベース
+論文Comprehensive expression data for two honey bee species, Apis mellifera and Apis cerana japonica(https://doi.org/10.1038/s41597-025-05279-z)内のデータを参考にした。
+A.ceranaとヒトの対応関係　figshare(https://doi.org/10.6084/m9.figshare.27175734)内のfuctional_annotation_transcript_Ac.tsv
+A.ceranaのpidとtranscriptIDの対応関係　figshare(https://doi.org/10.6084/m9.figshare.27175734)内のref_transcript_Ac_pep.fa
+TPMファイル　figshare(https://doi.org/10.6084/m9.figshare.27157632)　tpm_Ac.tsv
+
+論文中のデータで対応がわからなかったもの(blastpを行ったもの)
+ヒトのアミノ酸配列　Uniprot(https://www.uniprot.org/)
+Blastp NIHのBlast(https://blast.ncbi.nlm.nih.gov/Blast.cgi)を使用
+A.cerana PIDからgeneIDへの変換　NIHのprotein検索を使用(https://www.ncbi.nlm.nih.gov/protein/)
+
+
+# 2025/10/7
+# 林さんによる作業の参考データ
