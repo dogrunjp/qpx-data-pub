@@ -4,11 +4,12 @@
 Ensembl bioMartでEnsembl Gene IDをクエリとしてUniProt IDを取得(MANE Selectでフィルタ)
 Uniprot IDをもとにUniProtKBでヒトの対応するアミノ酸配列を取得
 (SilkBaseでカイコの全タンパク質配列データ(Protein sequences.Gene models based on the genome assembly (Nov.2016))を取得)
- →カイコのリファレンスをTSAのICPK00000000.1（https://www.ncbi.nlm.nih.gov/Traces/wgs?val=ICPK01）に変更
+ →カイコのリファレンスをTSAの[ICPK00000000.1]（https://www.ncbi.nlm.nih.gov/Traces/wgs?val=ICPK01）に変更
 (blastpで確認(クエリ：ヒト、データベース：カイコ))
  →blastnに変更
 
 実行コマンド
+```
 # makeblastdb -in Bomo_gene_models_prot.fa -dbtype prot -hash_index -parse_seqids
 # blastp -query idmapping_2025_12_11.fasta -db Bomo_gene_models_prot.fa -evalue 1e-10 -num_threads 8 -outfmt 6 -out WP534blastp-out.tsv
 
@@ -70,11 +71,12 @@ NR==1{
 
   print $0, id
 }' best_by_query_withBmGene.tsv > best_by_query_withBmGene_withUniProt.tsv
-
+```
 
 
 WP534
 対応表になしのblastp確認結果(qseqid	sseqid	stitle	pident	evalue)
+```
 LDHA	
 LDHC	
 LDHAL6B	
@@ -113,5 +115,5 @@ HK2
 HK3
 →対応済みGCKと同一
 PGI　IdentiferがEnzyme Nomenclatureのため参照不可
-
+```
 
