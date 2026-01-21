@@ -5,7 +5,7 @@
 - Uniprot IDをもとにUniProtKBでヒトの対応するアミノ酸配列を取得(SilkBaseでカイコの全タンパク質配列データ(Protein sequences.Gene models based on the genome assembly (Nov.2016))を取得)  
 -  →カイコのリファレンスをTSAの[ICPK00000000.1](https://www.ncbi.nlm.nih.gov/Traces/wgs?val=ICPK01)に変更  
 - (blastpで確認(クエリ：ヒト、データベース：カイコ))  
--  →blastnに変更
+-  →tblastnに変更
 
 実行コマンド
 ```
