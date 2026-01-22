@@ -73,8 +73,9 @@ NR==1{
 ```
 
 
+
+対応表になしのblastp確認結果(qseqid	sseqid	stitle	pident	evalue)  
 WP534
-対応表になしのblastp確認結果(qseqid	sseqid	stitle	pident	evalue)
 ```
 LDHA	
 LDHC	
@@ -116,3 +117,14 @@ HK3
 PGI　IdentiferがEnzyme Nomenclatureのため参照不可
 ```
 
+WP2453
+```
+PCK1	7hits
+ MSTRG.10528.3		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024919.1|	TSA: Bombyx mori mRNA, MSTRG.10528.3, mRNA sequence	63.621	0
+ KWMTBOMO12094		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024920.1|	TSA: Bombyx mori mRNA, KWMTBOMO12094.mrna1, mRNA sequence	63.621	0
+ KWMTBOMO12093		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024916.1|	TSA: Bombyx mori mRNA, KWMTBOMO12093.mrna1, mRNA sequence	62.292	0
+ MSTRG.10528.2		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024918.1|	TSA: Bombyx mori mRNA, MSTRG.10528.2, mRNA sequence	66.186	0
+ MSTRG.10528.1		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024917.1|	TSA: Bombyx mori mRNA, MSTRG.10528.1, mRNA sequence	66.186	0
+ MSTRG.10526.2		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024915.1|	TSA: Bombyx mori mRNA, MSTRG.10526.2, mRNA sequence	65.155	0
+ MSTRG.10526.1		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024914.1|	TSA: Bombyx mori mRNA, MSTRG.10526.1, mRNA sequence	67.268	0
+```
