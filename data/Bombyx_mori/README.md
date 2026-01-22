@@ -8,12 +8,14 @@
 - blastpで確認(クエリ：ヒト、データベース：カイコ)  
 **→tblastnに変更**
 
-実行コマンド
+実行コマンド(変更前)
 ```
 # makeblastdb -in Bomo_gene_models_prot.fa -dbtype prot -hash_index -parse_seqids
 # blastp -query idmapping_2025_12_11.fasta -db Bomo_gene_models_prot.fa -evalue 1e-10 -num_threads 8 -outfmt 6 -out WP534blastp-out.tsv
+```
 
-実行コマンド（WP534のもの）：
+実行コマンド（変更後、WP534のもの）
+```
 # 1) gzipを展開
 gunzip -c ICPK01.1.fsa_nt.gz > ICPK01.1.fsa_nt.fa
 # 2) nucl DBを作る（dbtypeをnuclに）
@@ -128,4 +130,48 @@ PCK1	7hits
  MSTRG.10528.1		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024917.1|	TSA: Bombyx mori mRNA, MSTRG.10528.1, mRNA sequence	66.186	0
  MSTRG.10526.2		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024915.1|	TSA: Bombyx mori mRNA, MSTRG.10526.2, mRNA sequence	65.155	0
  MSTRG.10526.1		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024914.1|	TSA: Bombyx mori mRNA, MSTRG.10526.1, mRNA sequence	67.268	0
+```
+
+WP500
+```
+GYG2  MSTRG.18375.9 sp|O15488|GLYG2_HUMAN	dbj|ICPK01042822.1|	TSA: Bombyx mori mRNA, MSTRG.18375.9, mRNA sequence	54.406  4.83E-92
+GYG MSTRG.18375.9 sp|P46976|GLYG_HUMAN	dbj|ICPK01042822.1|	TSA: Bombyx mori mRNA, MSTRG.18375.9, mRNA sequence	47.851	7.94E-103
+ →GYGに統一
+
+PPP2R5A 5hits
+PPP2R5B 4hits
+ →対応済みPPP2R5E,PPP2R5Cと同一
+
+PPP2R2C 4hits
+ →対応済みPPP2R2Aと同一
+
+PYGL
+PYGB
+ →対応済みPYGMと同一
+
+GYS1
+ →対応済みGYS2と同一
+
+PPP2CA
+ →対応済みPPP2CBと同一
+
+PPP2R4  KWMTBOMO09192 sp|Q15257|PTPA_HUMAN	dbj|ICPK01015394.1|	TSA: Bombyx mori mRNA, KWMTBOMO09192.mrna1, mRNA sequence	51.36	7.93E-115
+
+PPP2R2B 4hits
+ →対応済みPPP2R2Aと同一
+
+PPP2R3B MSTRG.6454.3  sp|Q9Y5P8|P2R3B_HUMAN	dbj|ICPK01015289.1|	TSA: Bombyx mori mRNA, MSTRG.6454.3, mRNA sequence	58.68	6.70E-160
+
+HKDC1
+HK1
+HK2
+HK3
+ →HKに統一　KWMTBOMO13777 sp|P19367|HXK1_HUMAN	dbj|ICPK01029915.1|	TSA: Bombyx mori mRNA, KWMTBOMO13777.mrna1, mRNA sequence	46.696  8.56E-133
+```
+
+WP4317
+```
+HTD2 MSTRG.6386.4 sp|P86397|HTD2_HUMAN	dbj|ICPK01015122.1|	TSA: Bombyx mori mRNA, MSTRG.6386.4, mRNA sequence	38.406	1.52E-24
+
+KAS KWMTBOMO05530 sp|Q9NWU1|OXSM_HUMAN	dbj|ICPK01003654.1|	TSA: Bombyx mori mRNA, KWMTBOMO05530.mrna1, mRNA sequence	60	8.81E-168
 ```
