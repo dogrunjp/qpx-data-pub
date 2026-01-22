@@ -8,13 +8,13 @@
 - blastpで確認(クエリ：ヒト、データベース：カイコ)  
 **→tblastnに変更**
 
-実行コマンド(変更前)
+## 実行コマンド(変更前)
 ```
 # makeblastdb -in Bomo_gene_models_prot.fa -dbtype prot -hash_index -parse_seqids
 # blastp -query idmapping_2025_12_11.fasta -db Bomo_gene_models_prot.fa -evalue 1e-10 -num_threads 8 -outfmt 6 -out WP534blastp-out.tsv
 ```
 
-実行コマンド（変更後、WP534のもの）
+## 実行コマンド（変更後、WP534のもの）
 ```
 # 1) gzipを展開
 gunzip -c ICPK01.1.fsa_nt.gz > ICPK01.1.fsa_nt.fa
@@ -77,8 +77,8 @@ NR==1{
 
 
 
-対応表になしのblastp確認結果(qseqid	sseqid	stitle	pident	evalue)  
-WP534
+## 対応表になしのtblastn確認結果(qseqid	sseqid	stitle	pident	evalue)  
+### WP534
 ```
 LDHA	
 LDHC	
@@ -120,7 +120,7 @@ HK3
 PGI　IdentiferがEnzyme Nomenclatureのため参照不可
 ```
 
-WP2453
+### WP2453
 ```
 PCK1	7hits
  MSTRG.10528.3		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024919.1|	TSA: Bombyx mori mRNA, MSTRG.10528.3, mRNA sequence	63.621	0
@@ -132,7 +132,7 @@ PCK1	7hits
  MSTRG.10526.1		sp|P35558|PCKGC_HUMAN	dbj|ICPK01024914.1|	TSA: Bombyx mori mRNA, MSTRG.10526.1, mRNA sequence	67.268	0
 ```
 
-WP500
+### WP500
 ```
 GYG2  MSTRG.18375.9 sp|O15488|GLYG2_HUMAN	dbj|ICPK01042822.1|	TSA: Bombyx mori mRNA, MSTRG.18375.9, mRNA sequence	54.406  4.83E-92
 GYG MSTRG.18375.9 sp|P46976|GLYG_HUMAN	dbj|ICPK01042822.1|	TSA: Bombyx mori mRNA, MSTRG.18375.9, mRNA sequence	47.851	7.94E-103
@@ -169,9 +169,11 @@ HK3
  →HKに統一　KWMTBOMO13777 sp|P19367|HXK1_HUMAN	dbj|ICPK01029915.1|	TSA: Bombyx mori mRNA, KWMTBOMO13777.mrna1, mRNA sequence	46.696  8.56E-133
 ```
 
-WP4317
+### WP4317
 ```
 HTD2 MSTRG.6386.4 sp|P86397|HTD2_HUMAN	dbj|ICPK01015122.1|	TSA: Bombyx mori mRNA, MSTRG.6386.4, mRNA sequence	38.406	1.52E-24
 
 KAS KWMTBOMO05530 sp|Q9NWU1|OXSM_HUMAN	dbj|ICPK01003654.1|	TSA: Bombyx mori mRNA, KWMTBOMO05530.mrna1, mRNA sequence	60	8.81E-168
 ```
+
+### WP368
