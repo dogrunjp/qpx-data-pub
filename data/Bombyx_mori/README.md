@@ -12,12 +12,13 @@
 - SilkBaseでカイコの全タンパク質配列データ(Protein sequences.Gene models based on the genome assembly (Nov.2016))を取得  
 **→カイコのリファレンスをTSAの[ICPK00000000.1](https://www.ncbi.nlm.nih.gov/Traces/wgs?val=ICPK01)に変更**  
 - blastpで確認(クエリ：ヒト、データベース：カイコ)  
-**→tblastnに変更(実行スクリプト：　tblastn.sh)**
+**→tblastnに変更(実行スクリプト：　tblastn.sh)**  
 
-## Ensembl gene IDを取得できない(Identifierが"eccode"しかない)場合
-- eccodeをクエリとしてTOGOIDを用いてuniprotIDとtaxonomyIDを取得
-- taxonomyID:9606でヒトにフィルタリング
-- uniprotでアミノ酸配列を取得し、blast  
+## Ensembl gene IDを取得できない(Identifierが"eccode"しかない)場合  
+- eccodeをクエリとしてTOGOIDを用いてuniprotIDとtaxonomyIDを取得  
+- taxonomyID:9606でヒトにフィルタリング  
+**上記の作業を行うコードを米澤さんに作成していただきました(wikipathways_convert.ipynb)**
+- 以下同様の手順で確認(uniprotでアミノ酸配列を取得し、blastで検索)  
 
 ## blast実行コマンド(変更前)
 ```
