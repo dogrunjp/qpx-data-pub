@@ -1,20 +1,31 @@
 # カイコ　WikiPathways リフトオーバー作業  
+## 手順
+- wikipathwaysのparticipantsよりdatanodes取得
+- 坊農先生の論文で作成された対応表[FF4I-B_mori-protein.tsv](https://doi.org/10.6084/m9.figshare.19368137)を取得
+- node_integ_Bmori.ipynbでヒトとカイコの遺伝子を結合した表を作成
+- 対応付けられなかった場合、tblastn.shおよび以下の手順で対応を試みる
+- gpmlファイルをpathvisioで編集
 
-対応表になかった場合の対応  
+## 対応表になかった場合の対応  
 - Ensembl bioMartでEnsembl Gene IDをクエリとしてUniProt IDを取得(MANE Selectでフィルタ)  
 - Uniprot IDをもとにUniProtKBでヒトの対応するアミノ酸配列を取得
 - SilkBaseでカイコの全タンパク質配列データ(Protein sequences.Gene models based on the genome assembly (Nov.2016))を取得  
 **→カイコのリファレンスをTSAの[ICPK00000000.1](https://www.ncbi.nlm.nih.gov/Traces/wgs?val=ICPK01)に変更**  
 - blastpで確認(クエリ：ヒト、データベース：カイコ)  
-**→tblastnに変更**
+**→tblastnに変更(実行スクリプト：　tblastn.sh)**
 
-## 実行コマンド(変更前)
+## Ensembl gene IDを取得できない(Identifierが"eccode"しかない)場合
+- eccodeをクエリとしてTOGOIDを用いてuniprotIDとtaxonomyIDを取得
+- taxonomyID:9606でヒトにフィルタリング
+- uniprotでアミノ酸配列を取得し、blast  
+
+## blast実行コマンド(変更前)
 ```
 # makeblastdb -in Bomo_gene_models_prot.fa -dbtype prot -hash_index -parse_seqids
 # blastp -query idmapping_2025_12_11.fasta -db Bomo_gene_models_prot.fa -evalue 1e-10 -num_threads 8 -outfmt 6 -out WP534blastp-out.tsv
 ```
 
-## 実行コマンド（変更後、WP534のもの）
+## blast実行コマンド（変更後、WP534のもの）
 ```
 # 1) gzipを展開
 gunzip -c ICPK01.1.fsa_nt.gz > ICPK01.1.fsa_nt.fa
@@ -196,3 +207,20 @@ PECR  MSTRG.3009.1  sp|Q9BY49|PECR_HUMAN	dbj|ICPK01007392.1|	TSA: Bombyx mori mR
 ```
 
 ### WP497
+```
+WP497
+CPS1  KWMTBOMO05728 sp|P31327|CPSM_HUMAN	dbj|ICPK01004402.1|	TSA: Bombyx mori mRNA, KWMTBOMO05728.mrna1, mRNA sequence	51.403	0
+
+PYCRL KWMTBOMO15987 sp|Q53H96|P5CR3_HUMAN	dbj|ICPK01036750.1|	TSA: Bombyx mori mRNA, KWMTBOMO15987.mrna1, mRNA sequence	40.299	7.57E-58
+
+ASS KWMTBOMO08788 sp|Q53H96|P5CR3_HUMAN	dbj|ICPK01036750.1|	TSA: Bombyx mori mRNA, KWMTBOMO15987.mrna1, mRNA sequence	40.299	7.57E-58
+
+NAGS
+GATM  
+GAMT
+ → no hit
+
+eccode
+1.2.1.46  MSTRG.11358.1 sp|P49189|AL9A1_HUMAN	dbj|ICPK01026692.1|	TSA: Bombyx mori mRNA, MSTRG.11358.1, mRNA sequence	40.773	3.34E-104
+その他のeccodeはヒトのuniprotIDなし
+```
