@@ -20,6 +20,8 @@ data/Symplocarpus_renifolius/
 
 Source data: supplementary data of Tanimoto et al., *Plant Physiol.*, 2024 (https://doi.org/10.1093/plphys/kiae059)
 
+**How the maps were made:** The three maps (FigS10A–C) were digitized and built manually in PathVisio 3.3.0, using the pathway figures in Tanimoto et al., *Plant Physiol.*, 2024 as reference. Automation of this step is currently in progress.
+
 ## How to reproduce
 
 Tested with `bonohu/qpx` commit `83d27bf`.
