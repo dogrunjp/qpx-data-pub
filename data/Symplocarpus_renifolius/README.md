@@ -1,71 +1,70 @@
-# ザゼンソウ(Symplocarpus renifolius) QPX表示用データ
+# Skunk cabbage (*Symplocarpus renifolius*) data for QPX
 
-ザゼンソウ(*Symplocarpus renifolius*)の発熱組織 Hot_F / Hot_P の遺伝子発現・メタボロームを、
-[QPX](https://github.com/bonohu/qpx) でパスウェイマップ上に表示するための最小限の再現セット。
+A minimal set for reproducing the display of gene expression and metabolome data from the thermogenic tissues Hot_F / Hot_P of the Asian skunk cabbage (*Symplocarpus renifolius*) on pathway maps with [QPX](https://github.com/bonohu/qpx).
 
-## 内容
+## Contents
 
 ```
 data/Symplocarpus_renifolius/
 ├── README.md
-├── skunk_cabbage.ipynb              表示用ノートブック
+├── skunk_cabbage.ipynb              Notebook for display
 └── skunk_cabbage/
-    ├── gpml/                        マップ(PathVisioで作成)
-    │   ├── FigS10A_qpx.gpml         ペントースリン酸経路
-    │   ├── FigS10B_qpx.gpml         ピリミジン合成
-    │   └── FigS10C_qpx.gpml         プリン・His合成
+    ├── gpml/                        Maps (drawn with PathVisio)
+    │   ├── FigS10A_qpx.gpml         Pentose phosphate pathway
+    │   ├── FigS10B_qpx.gpml         Pyrimidine biosynthesis
+    │   └── FigS10C_qpx.gpml         Purine and histidine biosynthesis
     └── data/
-        ├── annotation_Hot_qpx.tsv   遺伝子発現(15,904行、xref_id = Araport11 AGIコード)
-        └── metabolome_Hot_qpx.tsv   メタボローム(93行、xref_id = CHEBI:xxxxx)
+        ├── annotation_Hot_qpx.tsv   Gene expression (15,904 rows; xref_id = Araport11 AGI code)
+        └── metabolome_Hot_qpx.tsv   Metabolome (93 rows; xref_id = CHEBI:xxxxx)
 ```
 
-元データ: Tanimoto et al., *Plant Physiol.*, 2024 の補足データ(https://doi.org/10.1093/plphys/kiae059)
+Source data: supplementary data of Tanimoto et al., *Plant Physiol.*, 2024 (https://doi.org/10.1093/plphys/kiae059)
 
-## 再現手順
+## How to reproduce
 
-動作確認に使ったQPXのバージョン: `bonohu/qpx` の commit `83d27bf`。
+Tested with `bonohu/qpx` commit `83d27bf`.
 
 ```bash
-# 1. QPX を取得し、動作確認したバージョンに合わせる
+# 1. Get QPX and check out the tested version
 git clone https://github.com/bonohu/qpx.git
 cd qpx
 git checkout 83d27bf
 
-# 2. qpx-data-pub の data/Symplocarpus_renifolius/ にある2つを qpx/ の直下にコピーする
-#    (ノートブック内のパスは qpx/ からの相対パス)
+# 2. Copy the two items in qpx-data-pub/data/Symplocarpus_renifolius/ to the top level of qpx/
+#    (paths in the notebook are relative to qpx/)
 cp -r /path/to/qpx-data-pub/data/Symplocarpus_renifolius/skunk_cabbage .
 cp /path/to/qpx-data-pub/data/Symplocarpus_renifolius/skunk_cabbage.ipynb .
 
-# 3. ビルドして起動(初回のビルドには時間がかかる)
+# 3. Build and start (the first build takes a while)
 docker compose build
 docker compose up -d
 ```
 
-1. ブラウザで http://localhost:8888/lab/tree/skunk_cabbage.ipynb を開く(トークン不要)
-2. セルを上から順に実行する
-3. ドロップダウンでマップを選び、ノードをクリックするとヒートマップがその遺伝子・代謝物に絞り込まれる
+1. Open http://localhost:8888/lab/tree/skunk_cabbage.ipynb in a browser (no token required)
+2. Run the cells from top to bottom
+3. Select a map from the dropdown. Clicking a node filters the heatmaps to that gene or metabolite
 
-停止: `docker compose down -v`
+To stop: `docker compose down -v`
 
-## ファイルの書式
+## File format
 
-- マップの遺伝子ノードは `Database="TAIR"` + 大文字のAGIコード(`AT3G60750`)、代謝物ノードは `Database="ChEBI"` + `CHEBI:` 接頭辞付きID(`CHEBI:61548`)
-- TSVはタブ区切り・ヘッダーあり。0始まりで3番目の列が `xref_id`、4番目以降の列が発現値(Hot_F1–F4, Hot_P1–P4)。ノートブックの `expression_columns_index=[4, 4]` はこの配置を指す
-- マップの `ID` とTSVの `xref_id` は、大文字・小文字の違いも含めて完全に一致するものだけが紐付く
+- In the maps, gene nodes use `Database="TAIR"` with upper-case AGI codes (`AT3G60750`). Metabolite nodes use `Database="ChEBI"` with IDs that include the `CHEBI:` prefix (`CHEBI:61548`)
+- The TSV files are tab-separated and have a header row. Counting from 0, column 3 is `xref_id` and columns 4 onward hold the expression values (Hot_F1–F4, Hot_P1–P4). `expression_columns_index=[4, 4]` in the notebook refers to this layout
+- A map `ID` is linked to a TSV `xref_id` only when the two match exactly, including case
 
-マップ上のノードのうち、TSVに対応する行があるもの:
+Map nodes that have a matching row in the TSV files:
 
-| マップ | 遺伝子(TAIR) | 代謝物(ChEBI) |
+| Map | Genes (TAIR) | Metabolites (ChEBI) |
 |---|---|---|
 | FigS10A | 19 / 33 | 4 / 13 |
 | FigS10B | 7 / 7 | 2 / 8 |
 | FigS10C | 13 / 19 | 1 / 15 |
 
-TSVに行がないノードも表示はされる。クリックしてもヒートマップに行が出ないだけ。
+Nodes without a matching row are still drawn. Clicking one just shows no rows in the heatmaps.
 
-## 既知の制約
+## Known limitations
 
-- QPXのPython側(`visualizers.py`)は `xref_id` を整数として読み込む。このため、AGIコードや `CHEBI:` 付きIDのような文字列IDは null になり、`visualizer.selected_expression_data` が0行になる。一方、マップの表示・ノード選択・ヒートマップの絞り込みはブラウザ側で処理するので影響を受けない
-- ベースイメージは x86_64 用。Apple Silicon ではエミュレーションで動くので遅い
-- ポート 8888 を使う
-- 同じPCに別の qpx のコンテナが既にあって名前がぶつかる場合は、`docker compose -p <任意の名前> ...` でプロジェクト名を変える
+- The Python side of QPX (`visualizers.py`) reads `xref_id` as an integer. String IDs such as AGI codes and `CHEBI:`-prefixed IDs therefore become null, and `visualizer.selected_expression_data` has 0 rows. Map display, node selection and heatmap filtering are not affected, because the browser side handles them
+- The base image is built for x86_64. On Apple Silicon it runs under emulation and is slow
+- Port 8888 is used
+- If another qpx container on the same machine causes a name conflict, set a different project name with `docker compose -p <any name> ...`
