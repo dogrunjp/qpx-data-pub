@@ -1,4 +1,4 @@
-# demo set for transcriptome and proteome data integration
+# Test set for transcriptome and proteome data integration
 
 - Use case for the integration of multiple omics data 
   - Transcriptome: hypoxic stress RNA-seq data (HN-score) collected in "Multi-Omic Meta-Analysis of Transcriptomes and the Bibliome Uncovers Novel Hypoxia-Inducible Genes. [DOI: 10.3390/biomedicines9050582](https://doi.org/10.3390/biomedicines9050582)"
