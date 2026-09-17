@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Pyrimidine nucleotide synthesis (Asian skunk cabbage)" Version="20260914" Organism="Symplocarpus renifolius">
+  <BiopaxRef>d25</BiopaxRef>
+  <Graphics BoardWidth="560.0" BoardHeight="560.0" />
+  <DataNode TextLabel="Carbamoyl-P" GraphId="ba313" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="170.0" Width="140.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58228" />
+  </DataNode>
+  <DataNode TextLabel="CPS-A" GraphId="c7a00" Type="GeneProduct" GroupRef="e90c5">
+    <Graphics CenterX="150.0" CenterY="135.0" Width="120.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT3G27740" />
+  </DataNode>
+  <DataNode TextLabel="Gln" GraphId="e5c43" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="100.0" Width="140.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58359" />
+  </DataNode>
+  <DataNode TextLabel="Carbamoyl-aspartate" GraphId="b062d" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="240.0" Width="140.0" Height="20.0" ZOrder="32769" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:32814" />
+  </DataNode>
+  <DataNode TextLabel="UMP" GraphId="a6f5d" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="520.0" Width="140.0" Height="20.0" ZOrder="32770" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57865" />
+  </DataNode>
+  <DataNode TextLabel="Dihydroorotate" GraphId="c612d" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="310.0" Width="140.0" Height="20.0" ZOrder="32773" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30864" />
+  </DataNode>
+  <DataNode TextLabel="Orotate" GraphId="cf53e" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="380.0" Width="140.0" Height="20.0" ZOrder="32774" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30839" />
+  </DataNode>
+  <DataNode TextLabel="Orotidine-5P" GraphId="b1ef3" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="450.0" Width="140.0" Height="20.0" ZOrder="32775" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57538" />
+  </DataNode>
+  <DataNode TextLabel="PRPP" GraphId="e719e" Type="Metabolite">
+    <Graphics CenterX="460.0" CenterY="400.0" Width="140.0" Height="20.0" ZOrder="32776" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58017" />
+  </DataNode>
+  <DataNode TextLabel="ATC" GraphId="b5886" Type="GeneProduct">
+    <Graphics CenterX="150.0" CenterY="205.0" Width="120.0" Height="20.0" ZOrder="32780" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT3G20330" />
+  </DataNode>
+  <DataNode TextLabel="DHOase" GraphId="dbafe" Type="GeneProduct">
+    <Graphics CenterX="150.0" CenterY="275.0" Width="120.0" Height="20.0" ZOrder="32781" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT4G22930" />
+  </DataNode>
+  <DataNode TextLabel="DHODH" GraphId="c2e5e" Type="GeneProduct">
+    <Graphics CenterX="150.0" CenterY="345.0" Width="120.0" Height="20.0" ZOrder="32782" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT5G23300" />
+  </DataNode>
+  <DataNode TextLabel="OPRTase" GraphId="adee8" Type="GeneProduct">
+    <Graphics CenterX="150.0" CenterY="415.0" Width="120.0" Height="20.0" ZOrder="32783" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT3G54470" />
+  </DataNode>
+  <DataNode TextLabel="OMPDCase" GraphId="b3ab5" Type="GeneProduct">
+    <Graphics CenterX="150.0" CenterY="485.0" Width="120.0" Height="20.0" ZOrder="32784" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT3G54470" />
+  </DataNode>
+  <DataNode TextLabel="CPS-B" GraphId="b1f04" Type="GeneProduct" GroupRef="e90c5">
+    <Graphics CenterX="150.0" CenterY="155.0" Width="120.0" Height="19.999999999999993" ZOrder="32791" FontSize="12" Valign="Middle" />
+    <Xref Database="TAIR" ID="AT1G29900" />
+  </DataNode>
+  <Interaction GraphId="id2731e76d">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="300.0" Y="110.0" GraphRef="e5c43" RelX="0.0" RelY="1.0" />
+      <Point X="300.0" Y="160.0" GraphRef="ba313" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4" Shape="None" GraphId="da0ac" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idc6c9260c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="222.0" Y="145.0" GraphRef="ee3a6" RelX="1.0" RelY="0.0" />
+      <Point X="300.0" Y="130.0" GraphRef="da0ac" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idff20b735">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="300.0" Y="180.0" GraphRef="ba313" RelX="0.0" RelY="1.0" />
+      <Point X="300.0" Y="230.0" GraphRef="b062d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="ce919" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ae96d">
+    <Graphics ZOrder="32771" LineThickness="1.0">
+      <Point X="300.0" Y="250.0" GraphRef="b062d" RelX="0.0" RelY="1.0" />
+      <Point X="300.0" Y="300.0" GraphRef="c612d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="ad39e" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e5bc9">
+    <Graphics ZOrder="32772" LineThickness="1.0">
+      <Point X="300.0" Y="320.0" GraphRef="c612d" RelX="0.0" RelY="1.0" />
+      <Point X="300.0" Y="370.0" GraphRef="cf53e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="d998e" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b674d">
+    <Graphics ZOrder="32777" LineThickness="1.0">
+      <Point X="300.0" Y="390.0" GraphRef="cf53e" RelX="0.0" RelY="1.0" />
+      <Point X="300.0" Y="440.0" GraphRef="b1ef3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="fa627" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="bd09f">
+    <Graphics ZOrder="32778" LineThickness="1.0">
+      <Point X="300.0" Y="460.0" GraphRef="b1ef3" RelX="0.0" RelY="1.0" />
+      <Point X="300.0" Y="510.0" GraphRef="a6f5d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="a78d9" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="db063">
+    <Graphics ZOrder="32779" LineThickness="1.0">
+      <Point X="390.0" Y="400.0" GraphRef="e719e" RelX="-1.0" RelY="0.0" />
+      <Point X="300.0" Y="440.0" GraphRef="b1ef3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="b828a" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="a3bd3">
+    <Graphics ZOrder="32785" LineThickness="1.0">
+      <Point X="210.0" Y="205.0" GraphRef="b5886" RelX="1.0" RelY="0.0" />
+      <Point X="300.0" Y="200.0" GraphRef="ce919" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b97aa">
+    <Graphics ZOrder="32786" LineThickness="1.0">
+      <Point X="210.0" Y="275.0" GraphRef="dbafe" RelX="1.0" RelY="0.0" />
+      <Point X="300.0" Y="270.0" GraphRef="ad39e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e58ec">
+    <Graphics ZOrder="32787" LineThickness="1.0">
+      <Point X="210.0" Y="345.0" GraphRef="c2e5e" RelX="1.0" RelY="0.0" />
+      <Point X="300.0" Y="340.0" GraphRef="d998e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="f7c68">
+    <Graphics ZOrder="32788" LineThickness="1.0">
+      <Point X="210.0" Y="415.0" GraphRef="adee8" RelX="1.0" RelY="0.0" />
+      <Point X="300.0" Y="410.0" GraphRef="fa627" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="c1dc5">
+    <Graphics ZOrder="32789" LineThickness="1.0">
+      <Point X="210.0" Y="485.0" GraphRef="b3ab5" RelX="1.0" RelY="0.0" />
+      <Point X="300.0" Y="480.0" GraphRef="a78d9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e2c54">
+    <Graphics ZOrder="32790" LineThickness="1.0">
+      <Point X="210.0" Y="415.0" GraphRef="adee8" RelX="1.0" RelY="0.0" />
+      <Point X="354.0" Y="416.0" GraphRef="b828a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Group GroupId="e90c5" GraphId="ee3a6" Style="Complex" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d25">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38318875</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene expression and metabolite levels converge in the thermogenic spadix of skunk cabbage</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant Physiology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haruka Tanimoto, Yui Umekawa, Hideyuki Takahashi, Kota Goto, Kikukatsu Ito</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+
