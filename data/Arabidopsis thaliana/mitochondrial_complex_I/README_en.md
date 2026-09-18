@@ -22,7 +22,7 @@ The following values are recorded in the GPML file.
 | --- | --- |
 | Pathway name (`Name`) | `mitochondrial complex I` |
 | Organism (`Organism`) | `Arabidopsis thaliana` |
-| Version attribute (`Version`) | `20250916` |
+| Version attribute (`Version`) | `20260918` |
 | GPML namespace | `http://pathvisio.org/GPML/2013a` |
 | Drawing area | Approximately 2383.33 × 1228 in GPML coordinates |
 | Pathway-level literature references | 3 (`b23`, `ec5`, and `e66`) |

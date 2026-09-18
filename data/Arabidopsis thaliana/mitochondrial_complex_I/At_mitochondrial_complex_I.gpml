@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mitochondrial complex I" Version="20250916" Organism="Arabidopsis thaliana">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mitochondrial complex I" Version="20260918" Organism="Arabidopsis thaliana">
   <BiopaxRef>b23</BiopaxRef>
   <BiopaxRef>ec5</BiopaxRef>
   <BiopaxRef>e66</BiopaxRef>
