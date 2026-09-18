@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mitochondrial complex I" Version="20250916" Organism="Arabidopsis thaliana">
+  <BiopaxRef>b23</BiopaxRef>
+  <BiopaxRef>ec5</BiopaxRef>
+  <BiopaxRef>e66</BiopaxRef>
+  <Graphics BoardWidth="2383.3333333333317" BoardHeight="1227.9999999999982" />
+  <DataNode TextLabel="AT2G42310&#xA;(ESSS subunit of NADH:ubiquinone &#xA;oxidoreductase (complex I) protein)" GraphId="a1689" Type="Protein" GroupRef="be375">
+    <Graphics CenterX="1834.6666666666688" CenterY="883.9999999999999" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Uniprot-TrEMBL" ID="A0A178VYI3" />
+  </DataNode>
+  <DataNode TextLabel="Nadide&#xA;(NAD+)" GraphId="a1ed7" Type="Metabolite">
+    <Graphics CenterX="778.6666666666699" CenterY="363.9999999999995" Width="100.0" Height="30.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15846" />
+  </DataNode>
+  <DataNode TextLabel="AT1G49140&#xA;(NADH dehydrogenase ubiquinone 1 &#xA;beta subcomplex subunit 10-B-like &#xA;protein (Complex I subunit NDUFS6))" GraphId="a4f1d" Type="GeneProduct" GroupRef="aaf24">
+    <Graphics CenterX="1841.9999999999934" CenterY="1104.3333333333342" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT1G49140" />
+  </DataNode>
+  <DataNode TextLabel="AT5G11770&#xA;(NADH-ubiquinone &#xA;oxidoreductase 20 kDa subunit)" GraphId="a7943" Type="GeneProduct">
+    <Graphics CenterX="366.666666666668" CenterY="694.6666666666682" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT5G11770" />
+  </DataNode>
+  <DataNode TextLabel="nad4L&#xA;(NADH dehydrogenase subunit 4L)" GraphId="a7e25" Type="GeneProduct">
+    <Graphics CenterX="771.3333333333362" CenterY="1002.3333333333402" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00650" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00516&#xA;(NADH dehydrogenase subunit 1)" GraphId="a968b" Type="GeneProduct" GroupRef="e1a77">
+    <Graphics CenterX="294.33333333333394" CenterY="940.9999999999977" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00516" />
+  </DataNode>
+  <DataNode TextLabel="AT3G12260&#xA;(LYR family of&#xA; Fe/S cluster biosis protein)" GraphId="a9ad5" Type="GeneProduct">
+    <Graphics CenterX="698.3333333333358" CenterY="1057.6666666666617" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G12260" />
+  </DataNode>
+  <DataNode TextLabel="AT1G14450&#xA;(NADH dehydrogenase (ubiquinone)s)" GraphId="ae0b9" Type="GeneProduct" GroupRef="bf896">
+    <Graphics CenterX="2039.3333333333342" CenterY="882.9999999999983" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G14450" />
+  </DataNode>
+  <DataNode TextLabel="GAMMA CA1&#xA;(gamma carbonic anhydrase 1)" GraphId="af785" Type="GeneProduct">
+    <Graphics CenterX="1100.6666666666629" CenterY="574.0000000000017" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G19580" />
+  </DataNode>
+  <DataNode TextLabel="FRO1&#xA;(NADH-ubiquinone &#xA;oxidoreductase-like protein)" GraphId="b1886" Type="GeneProduct">
+    <Graphics CenterX="576.6666666666681" CenterY="532.0000000000011" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT5G67590" />
+  </DataNode>
+  <DataNode TextLabel="nad6&#xA;(NADH dehydrogenase subunit 6)" GraphId="b1f62" Type="GeneProduct">
+    <Graphics CenterX="708.3333333333358" CenterY="940.9999999999976" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00270" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00665&#xA;(nad5 mitochondrial)" GraphId="b6626" Type="GeneProduct" GroupRef="e032a">
+    <Graphics CenterX="1938.333333333324" CenterY="1038.3333333333321" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00665" />
+  </DataNode>
+  <DataNode TextLabel="AT2G02510&#xA;(NADH dehydrogenase (ubiquinone)s)" GraphId="b6d15" Type="GeneProduct" GroupRef="bf896">
+    <Graphics CenterX="2039.3333333333342" CenterY="833.0000000000001" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT2G02510" />
+  </DataNode>
+  <DataNode TextLabel="AT4G20150&#xA;(excitatory amino acid transporter)" GraphId="b7bf3" Type="GeneProduct">
+    <Graphics CenterX="2143.333333333323" CenterY="940.9999999999975" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT4G20150" />
+  </DataNode>
+  <DataNode TextLabel="AT3G03070&#xA;(NADH-ubiquinone &#xA;oxidoreductase-like protein)" GraphId="b7f4e" Type="GeneProduct">
+    <Graphics CenterX="370.0000000000013" CenterY="257.3333333333326" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G03070" />
+  </DataNode>
+  <DataNode TextLabel="TIM23-2&#xA;(translocase inner &#xA;membrane subunit 23-2)" GraphId="b86ea" Type="GeneProduct">
+    <Graphics CenterX="1808.0" CenterY="336.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G72750" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="bad11" Type="Metabolite">
+    <Graphics CenterX="778.6666666666699" CenterY="222.66666666666708" Width="100.0" Height="30.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16908" />
+  </DataNode>
+  <DataNode TextLabel="AT3G57785&#xA;(ESSS subunit of NADH:ubiquinone &#xA;oxidoreductase (complex I) protein)" GraphId="bb6ce" Type="GeneProduct" GroupRef="be375">
+    <Graphics CenterX="1834.6666666666688" CenterY="834.0000000000047" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G57785" />
+  </DataNode>
+  <DataNode TextLabel="EMB1467&#xA;(NADH-ubiquinone dehydrogenase)" GraphId="bd205" Type="GeneProduct">
+    <Graphics CenterX="580.0000000000014" CenterY="314.33333333333303" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT5G37510" />
+  </DataNode>
+  <DataNode TextLabel="AT3G18410&#xA;(NADH dehydrogenase ubiquinone 1 &#xA;beta subcomplex subunit 10-B-like &#xA;protein (Complex I subunit NDUFS6))" GraphId="bdaff" Type="GeneProduct" GroupRef="aaf24">
+    <Graphics CenterX="2041.9999999999934" CenterY="1104.3333333333342" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G18410" />
+  </DataNode>
+  <DataNode TextLabel="OEP16-3&#xA;(Mitochondrial import inner &#xA;membrane translocase subunit &#xA;Tim17/Tim22/Tim23 family protein)" GraphId="bdf08" Type="GeneProduct">
+    <Graphics CenterX="1222.9999999999927" CenterY="857.4166666666658" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT2G42210" />
+  </DataNode>
+  <DataNode TextLabel="nad7&#xA;(NADH dehydrogenase subunit 7)" GraphId="bf6ab" Type="GeneProduct">
+    <Graphics CenterX="366.666666666668" CenterY="639.6666666666657" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00510" />
+  </DataNode>
+  <DataNode TextLabel="nad4&#xA;(NADH dehydrogenase subunit 4)" GraphId="c0c72" Type="GeneProduct">
+    <Graphics CenterX="1324.6666666666536" CenterY="940.9999999999976" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00580" />
+  </DataNode>
+  <DataNode TextLabel="AT2G33220&#xA;(GRIM-19 protein)" GraphId="c17e9" Type="GeneProduct" GroupRef="bad6e">
+    <Graphics CenterX="611.6666666666699" CenterY="881.6666666666608" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT2G33220" />
+  </DataNode>
+  <DataNode TextLabel="AT2G20360&#xA;(NAD(P)-binding &#xA;Rossmann-fold superfamily protein)" GraphId="c2d6a" Type="GeneProduct">
+    <Graphics CenterX="576.6666666666681" CenterY="694.6666666666682" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT2G20360" />
+  </DataNode>
+  <DataNode TextLabel="AT4G00585&#xA;(uncharacterized protein&#xA;(NDU10/KFYI))" GraphId="c440b" Type="GeneProduct">
+    <Graphics CenterX="2244.0000000000045" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT4G00585" />
+  </DataNode>
+  <DataNode TextLabel="AT5G18800&#xA;(Cox19-like CHCH family protein)" GraphId="c775a" Type="GeneProduct">
+    <Graphics CenterX="285.3333333333303" CenterY="1109.3333333333387" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT5G18800" />
+  </DataNode>
+  <DataNode TextLabel="AT5G14105&#xA;(uncharacterized protein (P3))" GraphId="c92af" Type="GeneProduct">
+    <Graphics CenterX="1582.0" CenterY="194.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT5G14105" />
+  </DataNode>
+  <DataNode TextLabel="AT1G68680&#xA;(SH3/FCH domain protein)" GraphId="c9c22" Type="GeneProduct">
+    <Graphics CenterX="1582.0" CenterY="264.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G68680" />
+  </DataNode>
+  <DataNode TextLabel="MEE67&#xA;(Mitochondrial import inner membrane translocase &#xA;subunit Tim17/Tim22/Tim23 family protein)" GraphId="ca666" Type="GeneProduct">
+    <Graphics CenterX="1808.0" CenterY="194.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G10110" />
+  </DataNode>
+  <DataNode TextLabel="CI51&#xA;(51 kDa subunit of complex I)" GraphId="cb4dd" Type="GeneProduct">
+    <Graphics CenterX="580.0000000000014" CenterY="257.00000000000006" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="AT5G08530" />
+  </DataNode>
+  <DataNode TextLabel="AT5G47890&#xA;(NADH-ubiquinone &#xA;oxidoreductase B8 subunit)" GraphId="ccbd6" Type="GeneProduct">
+    <Graphics CenterX="370.0000000000013" CenterY="200.6666666666663" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT5G47890" />
+  </DataNode>
+  <DataNode TextLabel="AtMg00285/AtMg01320 (nad2))&#xA;(NADH dehydrogenase subunit 2" GraphId="ceba6" Type="GeneProduct">
+    <Graphics CenterX="1115.3333333333358" CenterY="940.9999999999977" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="AT1G72170&#xA;(MICOS complex subunit, putative &#xA;(DUF543))" GraphId="d02a5" Type="GeneProduct">
+    <Graphics CenterX="1582.0" CenterY="336.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT1G72170" />
+  </DataNode>
+  <DataNode TextLabel="AT3G08610&#xA;(NADH dehydrogenase ubiquinone 1 &#xA;alpha subcomplex subunit )" GraphId="d5078" Type="GeneProduct">
+    <Graphics CenterX="202.66666666666833" CenterY="856.3333333333309" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G08610" />
+  </DataNode>
+  <DataNode TextLabel="CIB22&#xA;(LYR family of &#xA;Fe/S cluster biosis protein)" GraphId="d511c" Type="GeneProduct">
+    <Graphics CenterX="2145.1538461538466" CenterY="774.743589743585" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT4G34700" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00513&#xA;(Nad5 mitochondrial)" GraphId="d65fd" Type="GeneProduct" GroupRef="e032a">
+    <Graphics CenterX="1938.333333333324" CenterY="940.3333333333369" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00513" />
+  </DataNode>
+  <DataNode TextLabel="AT3G06310&#xA;(Cox19-like CHCH family protein)" GraphId="d7568" Type="GeneProduct">
+    <Graphics CenterX="485.33333333333115" CenterY="1109.3333333333387" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT3G06310" />
+  </DataNode>
+  <DataNode TextLabel="AT5G47570&#xA;(NADH dehydrogenase ubiquinone 1 &#xA;beta subcomplex subunit)" GraphId="d7d6c" Type="GeneProduct">
+    <Graphics CenterX="1630.3333333333394" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT5G47570" />
+  </DataNode>
+  <DataNode TextLabel="MEE4&#xA;(GRIM-19 protein)" GraphId="d895f" Type="GeneProduct" GroupRef="bad6e">
+    <Graphics CenterX="611.6666666666699" CenterY="831.6666666666647" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G04630" />
+  </DataNode>
+  <DataNode TextLabel="AT5G08060&#xA;(furry)" GraphId="dc3ff" Type="GeneProduct">
+    <Graphics CenterX="580.0000000000014" CenterY="372.00000000000085" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT5G08060" />
+  </DataNode>
+  <DataNode TextLabel="GAMMA CAL1&#xA;(gamma carbonic anhydrase like 1)" GraphId="defbf" Type="GeneProduct">
+    <Graphics CenterX="1100.6666666666629" CenterY="632.6666666666663" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT5G63510" />
+  </DataNode>
+  <DataNode TextLabel="hydron&#xA;(H+)" GraphId="df38c" Type="Metabolite">
+    <Graphics CenterX="907.8461538461552" CenterY="363.9999999999995" Width="100.0" Height="30.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="AT4G16450&#xA;(NADH-ubiquinone oxidoreductase)" GraphId="dfb8e" Type="GeneProduct">
+    <Graphics CenterX="815.0000000000018" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT4G16450" />
+  </DataNode>
+  <DataNode TextLabel="N module" GraphId="e1d8c" Type="Complex">
+    <Graphics CenterX="315.0000000000004" CenterY="151.99999999999986" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="AT5G52840&#xA;(NADH-ubiquinone &#xA;oxidoreductase-like protein)" GraphId="e4551" Type="GeneProduct">
+    <Graphics CenterX="576.6666666666681" CenterY="588.3333333333361" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT5G52840" />
+  </DataNode>
+  <DataNode TextLabel="AT2G46540&#xA;(fiber)" GraphId="e5bed" Type="GeneProduct">
+    <Graphics CenterX="407.4166666666687" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT2G46540" />
+  </DataNode>
+  <DataNode TextLabel="AT2G47690&#xA;(NADH-ubiquinone &#xA;oxidoreductase-like protein)" GraphId="e65a1" Type="GeneProduct" GroupRef="bdd38">
+    <Graphics CenterX="1020.0000000000026" CenterY="1093.6666666666642" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT2G47690" />
+  </DataNode>
+  <DataNode TextLabel="AT2G07751 (nad3)&#xA;(NADH:ubiquinone/plastoquinone &#xA;oxidoreductase, chain 3 protein)" GraphId="e7498" Type="GeneProduct">
+    <Graphics CenterX="501.9999999999972" CenterY="940.9999999999976" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="ATMG00990" />
+  </DataNode>
+  <DataNode TextLabel="AT1G76200&#xA;(NADH dehydrogenase ubiquinone 1 &#xA;beta subcomplex subunit)" GraphId="e8067" Type="GeneProduct">
+    <Graphics CenterX="1020.0000000000025" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT1G76200" />
+  </DataNode>
+  <DataNode TextLabel="AT1G79010&#xA;(Alpha-helical ferredoxin)" GraphId="e8aed" Type="GeneProduct" GroupRef="a31b5">
+    <Graphics CenterX="366.666666666668" CenterY="581.6666666666661" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G79010" />
+  </DataNode>
+  <DataNode TextLabel="AT3G62790&#xA;(NADH-ubiquinone &#xA;oxidoreductase-like protein)" GraphId="ea5ac" Type="GeneProduct" GroupRef="bdd38">
+    <Graphics CenterX="1020.0000000000026" CenterY="1043.6666666666679" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G62790" />
+  </DataNode>
+  <DataNode TextLabel="nad9&#xA;(NADH dehydrogenase subunit 9)" GraphId="ea922" Type="GeneProduct">
+    <Graphics CenterX="366.666666666668" CenterY="472.33333333333024" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00070" />
+  </DataNode>
+  <DataNode TextLabel="AT2G02050&#xA;(NADH-ubiquinone &#xA;oxidoreductase B18 subunit)" GraphId="eaf66" Type="GeneProduct">
+    <Graphics CenterX="1426.6666666666727" CenterY="1053.0000000000036" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT2G02050" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00600&#xA;(nad5 mitochondrial)" GraphId="ece53" Type="GeneProduct" GroupRef="e032a">
+    <Graphics CenterX="1938.333333333324" CenterY="988.3333333333317" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00600" />
+  </DataNode>
+  <DataNode TextLabel="AT3G03100&#xA;(NADH:ubiquinone &#xA;oxidoreductase, 17.2kDa subunit)" GraphId="eda20" Type="GeneProduct">
+    <Graphics CenterX="576.6666666666681" CenterY="473.9999999999981" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT3G03100" />
+  </DataNode>
+  <DataNode TextLabel="AT4G02580&#xA;(NADH-ubiquinone &#xA;oxidoreductase 24 kDa subunit)" GraphId="f1a3a" Type="GeneProduct">
+    <Graphics CenterX="580.0000000000014" CenterY="200.6666666666663" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT4G02580" />
+  </DataNode>
+  <DataNode TextLabel="AT2G28430&#xA;(zinc finger, C3HC4 type &#xA;family protein)" GraphId="f4d5a" Type="GeneProduct">
+    <Graphics CenterX="1808.0" CenterY="264.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT2G28430" />
+  </DataNode>
+  <DataNode TextLabel="AT1G16700&#xA;(Alpha-helical ferredoxin)" GraphId="f6f84" Type="GeneProduct" GroupRef="a31b5">
+    <Graphics CenterX="366.666666666668" CenterY="531.6666666666661" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G16700" />
+  </DataNode>
+  <DataNode TextLabel="AT2G31490&#xA;(neuronal acetylcholine &#xA;receptor subunit alpha-5)" GraphId="fca58" Type="GeneProduct">
+    <Graphics CenterX="1426.6666666666727" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="AT2G31490" />
+  </DataNode>
+  <DataNode TextLabel="AT1G67785&#xA;(uncharacterized protein)" GraphId="ffac8" Type="GeneProduct">
+    <Graphics CenterX="370.0000000000013" CenterY="314.6666666666671" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G67785" />
+  </DataNode>
+  <DataNode TextLabel="GAMMA CA2&#xA;(gamma carbonic anhydrase 2)" GraphId="ceb8c" Type="GeneProduct">
+    <Graphics CenterX="1308.000000000002" CenterY="574.0000000000017" Width="200.0" Height="50.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT1G47260" />
+  </DataNode>
+  <DataNode TextLabel="GAMMA CAL2&#xA;(gamma carbonic anhydrase-like 2)" GraphId="ae561" Type="GeneProduct">
+    <Graphics CenterX="1308.000000000002" CenterY="632.6666666666663" Width="200.0" Height="50.0" ZOrder="32770" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT3G48680" />
+  </DataNode>
+  <DataNode TextLabel="GAMMA CA3&#xA;(gamma carbonic anhydrase 3)" GraphId="f1b8e" Type="GeneProduct">
+    <Graphics CenterX="1204.666666666661" CenterY="699.3333333333335" Width="200.0" Height="50.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="AT5G66510" />
+  </DataNode>
+  <DataNode TextLabel="Q module" GraphId="df2c5" Type="Complex">
+    <Graphics CenterX="315.0000000000004" CenterY="428.6666666666655" Width="90.0" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="PP module" GraphId="dd196" Type="Complex">
+    <Graphics CenterX="163.66666666666652" CenterY="743.3333333333334" Width="90.0" Height="25.0" ZOrder="32773" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="PD module" GraphId="f7c0d" Type="Complex">
+    <Graphics CenterX="1886.9999999999868" CenterY="743.3333333333335" Width="90.0" Height="25.0" ZOrder="32774" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="CA domain" GraphId="f8a02" Type="Complex">
+    <Graphics CenterX="1039.6666666666683" CenterY="530.6666666666667" Width="90.0" Height="25.0" ZOrder="32775" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="hydron&#xA;(H+)" GraphId="e714f" Type="Metabolite">
+    <Graphics CenterX="849.7692307692323" CenterY="672.9999999999987" Width="100.0" Height="30.0" ZOrder="32776" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="hydron&#xA;(H+)" GraphId="a57d7" Type="Metabolite">
+    <Graphics CenterX="849.7692307692323" CenterY="1182.9999999999982" Width="100.0" Height="30.0" ZOrder="32777" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="Candidate plant-specific subunits" GraphId="adef8" Type="Complex">
+    <Graphics CenterX="1561.6666666666683" CenterY="144.66666666666674" Width="200.0" Height="25.0" ZOrder="32778" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ATMG01120&#xA;(NADH dehydrogenase subunit 1)" GraphId="cb46d" Type="GeneProduct" GroupRef="e1a77">
+    <Graphics CenterX="294.33333333333394" CenterY="990.9999999999978" Width="200.0" Height="50.0" ZOrder="32779" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG01120" />
+  </DataNode>
+  <DataNode TextLabel="ATMG01275&#xA;(NADH dehydrogenase subunit 1)" GraphId="ae9f9" Type="GeneProduct" GroupRef="e1a77">
+    <Graphics CenterX="294.33333333333394" CenterY="1040.9999999999977" Width="200.0" Height="50.0" ZOrder="32780" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG01275" />
+  </DataNode>
+  <Interaction GraphId="id7e08a5f4">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="5.0">
+      <Point X="849.7692307692323" Y="687.9999999999987" GraphRef="e714f" RelX="0.0" RelY="1.0" />
+      <Point X="849.7692307692323" Y="1167.9999999999982" GraphRef="a57d7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8d1af5ec">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="700.0000000000009" Y="281.3749999999999" GraphRef="a8ba2" RelX="1.0" RelY="0.0" />
+      <Point X="778.6666666666699" Y="281.3333333333333" GraphRef="b6465" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb467ae77">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="778.6666666666699" Y="237.66666666666708" GraphRef="bad11" RelX="0.0" RelY="1.0" />
+      <Point X="778.6666666666699" Y="348.9999999999995" GraphRef="a1ed7" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.3922155688622748" Shape="None" GraphId="b6465" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Shape GraphId="a8ba2">
+    <Graphics CenterX="475.0000000000009" CenterY="281.3749999999999" Width="450.0" Height="253.25000000000023" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b0729">
+    <Graphics CenterX="1225.0833333333317" CenterY="944.7500000000001" Width="2256.5" Height="403.83333333333326" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b72d7">
+    <Graphics CenterX="1694.75" CenterY="269.75" Width="502.5" Height="244.5" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="e64f0">
+    <Graphics CenterX="473.3333333333335" CenterY="579.4999999999994" Width="450.0" Height="314.3333333333346" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f31ae">
+    <Graphics CenterX="1204.4166666666592" CenterY="633.3333333333321" Width="456.49999999999955" Height="201.33333333333323" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="a31b5" Style="Group" />
+  <Group GroupId="e1a77" Style="Group" />
+  <Group GroupId="bad6e" Style="Group" />
+  <Group GroupId="bdd38" Style="Group" />
+  <Group GroupId="be375" Style="Group" />
+  <Group GroupId="bf896" Style="Group" />
+  <Group GroupId="e032a" Style="Group" />
+  <Group GroupId="aaf24" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26801215</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant mitochondrial Complex I composition and assembly: A review.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subrahmanian N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remacle C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamel PP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24561573</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The life of plant mitochondrial complex I.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrion</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braun HP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binder S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brennicke A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eubel H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fernie AR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finkemeier I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klodmann J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">König AC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kühn K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyer E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obata T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwarzländer M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takenaka M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zehrmann A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e66">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20197505</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internal architecture of mitochondrial complex I from Arabidopsis thaliana.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant Cell</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klodmann J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunderhaus S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nimtz M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jänsch L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braun HP</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+
