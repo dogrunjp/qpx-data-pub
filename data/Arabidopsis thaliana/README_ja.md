@@ -1,8 +1,8 @@
 ## シロイヌナズナ 光合成炭素還元経路（WP1461）× QPX 対応データセット
 
-シロイヌナズナ（*Arabidopsis thaliana*）の地上部器官発生RNA-seqデータ（[ArrayExpress E-MTAB-7978](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7978)）を、WikiPathwaysの光合成炭素還元経路図（[WP1461](https://sandbox.wikipathways.org/pathways/WP1461.html)）をもとに、さらに文献情報を用いて編集しました。
+シロイヌナズナ（*Arabidopsis thaliana*）の地上部器官発生RNA-seqデータ（[ArrayExpress E-MTAB-7978](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7978)）と、WikiPathwaysの光合成炭素還元経路図（[WP1461](https://sandbox.wikipathways.org/pathways/WP1461.html)）をもとに、さらに文献情報を用いて編集した経路図です
 
-編集した経路データ上に、[QPX](https://github.com/bonohu/qpx)を用いてRNA-seqデータを表示できるようにした一式です。
+この編集した経路データ上に、[QPX](https://github.com/bonohu/qpx)を用いてRNA-seqデータを表示できるようにした一式です。
 
 ## Pathway制作に使用した引用文献
 
