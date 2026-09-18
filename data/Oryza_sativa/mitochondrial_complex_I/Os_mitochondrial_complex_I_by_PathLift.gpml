@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" xmlns:ns1="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" Name="mitochondrial complex I (Oryza sativa, AGIS nuclear reference)" Version="20250916" Organism="Oryza sativa">
+  <Comment Source="PathLift-run-context">Source: Arabidopsis thaliana; target: Oryza sativa Japonica Group (taxid 39947). Candidates reference the requested AGIS GFF gene IDs. Organellar genes are outside this nuclear reference; unmapped nodes retain source Xrefs. BLAST candidates for nad2/nad9 are nuclear Helixer predictions, not organelle annotations. The input Protein node is preserved because PathLift transforms GeneProduct only.</Comment><BiopaxRef>b23</BiopaxRef>
+  <BiopaxRef>ec5</BiopaxRef>
+  <BiopaxRef>e66</BiopaxRef>
+  <Graphics BoardWidth="2383.3333333333317" BoardHeight="1227.9999999999982" />
+  <DataNode TextLabel="AT2G42310&#10;(ESSS subunit of NADH:ubiquinone &#10;oxidoreductase (complex I) protein)" GraphId="a1689" Type="Protein" GroupRef="be375">
+    <Graphics CenterX="1834.6666666666688" CenterY="883.9999999999999" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Uniprot-TrEMBL" ID="A0A178VYI3" />
+  </DataNode>
+  <DataNode TextLabel="Nadide&#10;(NAD+)" GraphId="a1ed7" Type="Metabolite">
+    <Graphics CenterX="778.6666666666699" CenterY="363.9999999999995" Width="100.0" Height="30.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15846" />
+  </DataNode>
+  <DataNode TextLabel="LOC4349491 (Os10g0576000)" GraphId="a4f1d" Type="GeneProduct" GroupRef="aaf24">
+    <Comment Source="PathLift">candidate gene=gene-LOC4349491; transcripts=rna-XM_015758591.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G49140
+(NADH dehydrogenase ubiquinone 1 
+beta subcomplex subunit 10-B-like 
+protein (Complex I subunit NDUFS6))</Comment><Graphics CenterX="1841.9999999999934" CenterY="1104.3333333333342" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4349491" />
+  </DataNode>
+  <DataNode TextLabel="LOC107276869 (Os01g0720300)" GraphId="a7943" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC107276869; transcripts=rna-XM_015792761.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G11770
+(NADH-ubiquinone 
+oxidoreductase 20 kDa subunit)</Comment><Graphics CenterX="366.666666666668" CenterY="694.6666666666682" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC107276869" />
+  </DataNode>
+  <DataNode TextLabel="LOC4339427 (Os05g0533700)" GraphId="af009" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4339427; transcripts=rna-XM_015783523.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G11770
+(NADH-ubiquinone 
+oxidoreductase 20 kDa subunit)</Comment><Graphics CenterX="390.666666666668" CenterY="710.6666666666682" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4339427" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00650" GraphId="a7e25" Type="GeneProduct">
+    <Comment Source="PathLift">unmapped: ATMG00650 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: nad4L
+(NADH dehydrogenase subunit 4L)</Comment><Graphics CenterX="771.3333333333362" CenterY="1002.3333333333402" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00650" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00516" GraphId="a968b" Type="GeneProduct" GroupRef="e1a77">
+    <Comment Source="PathLift">unmapped: ATMG00516 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: ATMG00516
+(NADH dehydrogenase subunit 1)</Comment><Graphics CenterX="294.33333333333394" CenterY="940.9999999999977" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00516" />
+  </DataNode>
+  <DataNode TextLabel="LOC4344058 (Os07g0640100)" GraphId="a9ad5" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4344058; transcripts=rna-NM_001422989.1; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G12260
+(LYR family of
+ Fe/S cluster biosis protein)</Comment><Graphics CenterX="698.3333333333358" CenterY="1057.6666666666617" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4344058" />
+  </DataNode>
+  <DataNode TextLabel="LOC9271539 (Os02g0564200)" GraphId="ae0b9" Type="GeneProduct" GroupRef="bf896">
+    <Comment Source="PathLift">candidate gene=gene-LOC9271539; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G14450
+(NADH dehydrogenase (ubiquinone)s)</Comment><Graphics CenterX="2039.3333333333342" CenterY="882.9999999999983" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC9271539" />
+  </DataNode>
+  <DataNode TextLabel="LOC4327904 (Os01g0283100)" GraphId="af785" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4327904; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA1
+(gamma carbonic anhydrase 1)</Comment><Graphics CenterX="1100.6666666666629" CenterY="574.0000000000017" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4327904" />
+  </DataNode>
+  <DataNode TextLabel="LOC4329443 (Os02g0508000)" GraphId="c1aa4" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4329443; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA1
+(gamma carbonic anhydrase 1)</Comment><Graphics CenterX="1124.6666666666629" CenterY="590.0000000000017" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4329443" />
+  </DataNode>
+  <DataNode TextLabel="LOC4344079 (Os07g0642900)" GraphId="ff1de" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4344079; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA1
+(gamma carbonic anhydrase 1)</Comment><Graphics CenterX="1148.6666666666629" CenterY="606.0000000000017" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4344079" />
+  </DataNode>
+  <DataNode TextLabel="LOC4351619 (Os12g0169700)" GraphId="e3d74" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4351619; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA1
+(gamma carbonic anhydrase 1)</Comment><Graphics CenterX="1172.6666666666629" CenterY="622.0000000000017" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4351619" />
+  </DataNode>
+  <DataNode TextLabel="LOC4343746 (Os07g0585800)" GraphId="b1886" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4343746; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: FRO1
+(NADH-ubiquinone 
+oxidoreductase-like protein)</Comment><Graphics CenterX="576.6666666666681" CenterY="532.0000000000011" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4343746" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00270" GraphId="b1f62" Type="GeneProduct">
+    <Comment Source="PathLift">unmapped: ATMG00270 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: nad6
+(NADH dehydrogenase subunit 6)</Comment><Graphics CenterX="708.3333333333358" CenterY="940.9999999999976" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00270" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00665" GraphId="b6626" Type="GeneProduct" GroupRef="e032a">
+    <Comment Source="PathLift">unmapped: ATMG00665 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: ATMG00665
+(nad5 mitochondrial)</Comment><Graphics CenterX="1938.333333333324" CenterY="1038.3333333333321" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00665" />
+  </DataNode>
+  <DataNode TextLabel="LOC9271539 (Os02g0564200)" GraphId="b6d15" Type="GeneProduct" GroupRef="bf896">
+    <Comment Source="PathLift">candidate gene=gene-LOC9271539; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G02510
+(NADH dehydrogenase (ubiquinone)s)</Comment><Graphics CenterX="2039.3333333333342" CenterY="833.0000000000001" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC9271539" />
+  </DataNode>
+  <DataNode TextLabel="LOC4343303 (Os07g0498300)" GraphId="b7bf3" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4343303; transcripts=rna-XM_015789603.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT4G20150
+(excitatory amino acid transporter)</Comment><Graphics CenterX="2143.333333333323" CenterY="940.9999999999975" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4343303" />
+  </DataNode>
+  <DataNode TextLabel="LOC4344724 (Os08g0161700)" GraphId="b7f4e" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4344724; transcripts=rna-XM_015792961.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G03070
+(NADH-ubiquinone 
+oxidoreductase-like protein)</Comment><Graphics CenterX="370.0000000000013" CenterY="257.3333333333326" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4344724" />
+  </DataNode>
+  <DataNode TextLabel="LOC4330283 (Os02g0672500)" GraphId="b86ea" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4330283; transcripts=rna-XM_015769382.3,rna-XM_015769381.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: TIM23-2
+(translocase inner 
+membrane subunit 23-2)</Comment><Graphics CenterX="1808.0" CenterY="336.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4330283" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="bad11" Type="Metabolite">
+    <Graphics CenterX="778.6666666666699" CenterY="222.66666666666708" Width="100.0" Height="30.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16908" />
+  </DataNode>
+  <DataNode TextLabel="LOC4347427 (Os09g0487500)" GraphId="bb6ce" Type="GeneProduct" GroupRef="be375">
+    <Comment Source="PathLift">candidate gene=gene-LOC4347427; transcripts=rna-XM_015755205.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G57785
+(ESSS subunit of NADH:ubiquinone 
+oxidoreductase (complex I) protein)</Comment><Graphics CenterX="1834.6666666666688" CenterY="834.0000000000047" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4347427" />
+  </DataNode>
+  <DataNode TextLabel="LOC9272419 (Os08g0505001)" GraphId="e65d2" Type="GeneProduct" GroupRef="be375">
+    <Comment Source="PathLift">candidate gene=gene-LOC9272419; transcripts=rna-XM_015793926.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G57785
+(ESSS subunit of NADH:ubiquinone 
+oxidoreductase (complex I) protein)</Comment><Graphics CenterX="1858.6666666666688" CenterY="850.0000000000047" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC9272419" />
+  </DataNode>
+  <DataNode TextLabel="LOC4333901 (Os03g0713400)" GraphId="bd205" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4333901; transcripts=rna-XM_015775155.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: EMB1467
+(NADH-ubiquinone dehydrogenase)</Comment><Graphics CenterX="580.0000000000014" CenterY="314.33333333333303" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4333901" />
+  </DataNode>
+  <DataNode TextLabel="LOC4349491 (Os10g0576000)" GraphId="bdaff" Type="GeneProduct" GroupRef="aaf24">
+    <Comment Source="PathLift">candidate gene=gene-LOC4349491; transcripts=rna-XM_015758591.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G18410
+(NADH dehydrogenase ubiquinone 1 
+beta subcomplex subunit 10-B-like 
+protein (Complex I subunit NDUFS6))</Comment><Graphics CenterX="2041.9999999999934" CenterY="1104.3333333333342" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4349491" />
+  </DataNode>
+  <DataNode TextLabel="LOC4330528 (Os02g0717300)" GraphId="bdf08" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4330528; transcripts=rna-XM_015767437.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: OEP16-3
+(Mitochondrial import inner 
+membrane translocase subunit 
+Tim17/Tim22/Tim23 family protein)</Comment><Graphics CenterX="1222.9999999999927" CenterY="857.4166666666658" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4330528" />
+  </DataNode>
+  <DataNode TextLabel="LOC4346603 (Os09g0279300)" GraphId="f0d79" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4346603; transcripts=rna-XM_015755986.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: OEP16-3
+(Mitochondrial import inner 
+membrane translocase subunit 
+Tim17/Tim22/Tim23 family protein)</Comment><Graphics CenterX="1246.9999999999927" CenterY="873.4166666666658" Width="200.0" Height="65.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4346603" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00510" GraphId="bf6ab" Type="GeneProduct">
+    <Comment Source="PathLift">unmapped: ATMG00510 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: nad7
+(NADH dehydrogenase subunit 7)</Comment><Graphics CenterX="366.666666666668" CenterY="639.6666666666657" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00510" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00580" GraphId="c0c72" Type="GeneProduct">
+    <Comment Source="PathLift">unmapped: ATMG00580 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: nad4
+(NADH dehydrogenase subunit 4)</Comment><Graphics CenterX="1324.6666666666536" CenterY="940.9999999999976" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG00580" />
+  </DataNode>
+  <DataNode TextLabel="LOC4331914 (Os03g0192400)" GraphId="c17e9" Type="GeneProduct" GroupRef="bad6e">
+    <Comment Source="PathLift">candidate gene=gene-LOC4331914; transcripts=rna-XM_015777611.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G33220
+(GRIM-19 protein)</Comment><Graphics CenterX="611.6666666666699" CenterY="881.6666666666608" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4331914" />
+  </DataNode>
+  <DataNode TextLabel="LOC4331143 (Os02g0816800)" GraphId="c2d6a" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4331143; transcripts=rna-XM_015772264.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G20360
+(NAD(P)-binding 
+Rossmann-fold superfamily protein)</Comment><Graphics CenterX="576.6666666666681" CenterY="694.6666666666682" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4331143" />
+  </DataNode>
+  <DataNode TextLabel="LOC4347849 (Os09g0560300)" GraphId="c440b" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4347849; transcripts=rna-XM_015756997.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT4G00585
+(uncharacterized protein
+(NDU10/KFYI))</Comment><Graphics CenterX="2244.0000000000045" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4347849" />
+  </DataNode>
+  <DataNode TextLabel="LOC4332532 (Os03g0295500)" GraphId="c775a" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4332532; transcripts=rna-XM_015775962.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G18800
+(Cox19-like CHCH family protein)</Comment><Graphics CenterX="285.3333333333303" CenterY="1109.3333333333387" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4332532" />
+  </DataNode>
+  <DataNode TextLabel="LOC4339331 (Os05g0517800)" GraphId="c92af" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4339331; transcripts=rna-XM_015785028.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G14105
+(uncharacterized protein (P3))</Comment><Graphics CenterX="1582.0" CenterY="194.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4339331" />
+  </DataNode>
+  <DataNode TextLabel="LOC4337961 (Os05g0176600)" GraphId="c9c22" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4337961; transcripts=rna-XM_015781936.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G68680
+(SH3/FCH domain protein)</Comment><Graphics CenterX="1582.0" CenterY="264.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4337961" />
+  </DataNode>
+  <DataNode TextLabel="LOC4332537 (Os03g0296300)" GraphId="ca666" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4332537; transcripts=rna-XM_015776566.3,rna-XM_015776564.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: MEE67
+(Mitochondrial import inner membrane translocase 
+subunit Tim17/Tim22/Tim23 family protein)</Comment><Graphics CenterX="1808.0" CenterY="194.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4332537" />
+  </DataNode>
+  <DataNode TextLabel="LOC4344095 (Os07g0645400)" GraphId="cb4dd" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4344095; transcripts=rna-XM_015791697.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: CI51
+(51 kDa subunit of complex I)</Comment><Graphics CenterX="580.0000000000014" CenterY="257.00000000000006" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4344095" />
+  </DataNode>
+  <DataNode TextLabel="LOC4335450 (Os04g0310500)" GraphId="ccbd6" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4335450; transcripts=rna-XM_015778283.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G47890
+(NADH-ubiquinone 
+oxidoreductase B8 subunit)</Comment><Graphics CenterX="370.0000000000013" CenterY="200.6666666666663" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4335450" />
+  </DataNode>
+  <DataNode TextLabel="_NC_089038.1_002212" GraphId="ceba6" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=_NC_089038.1_002212; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AtMg00285/AtMg01320 (nad2))
+(NADH dehydrogenase subunit 2</Comment><Graphics CenterX="1115.3333333333358" CenterY="940.9999999999977" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="_NC_089038.1_002212" />
+  </DataNode>
+  <DataNode TextLabel="_NC_089038.1_002232" GraphId="eeacc" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=_NC_089038.1_002232; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AtMg00285/AtMg01320 (nad2))
+(NADH dehydrogenase subunit 2</Comment><Graphics CenterX="1139.3333333333358" CenterY="956.9999999999977" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="_NC_089038.1_002232" />
+  </DataNode>
+  <DataNode TextLabel="LOC4334733 (Os03g0840900)" GraphId="d02a5" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4334733; transcripts=rna-XM_015772571.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G72170
+(MICOS complex subunit, putative 
+(DUF543))</Comment><Graphics CenterX="1582.0" CenterY="336.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4334733" />
+  </DataNode>
+  <DataNode TextLabel="LOC4339127 (Os05g0481600)" GraphId="d5078" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4339127; transcripts=rna-XM_015781871.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G08610
+(NADH dehydrogenase ubiquinone 1 
+alpha subcomplex subunit )</Comment><Graphics CenterX="202.66666666666833" CenterY="856.3333333333309" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4339127" />
+  </DataNode>
+  <DataNode TextLabel="LOC4342058 (Os06g0714100)" GraphId="d511c" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4342058; transcripts=rna-XM_015785886.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: CIB22
+(LYR family of 
+Fe/S cluster biosis protein)</Comment><Graphics CenterX="2145.1538461538466" CenterY="774.743589743585" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4342058" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00513" GraphId="d65fd" Type="GeneProduct" GroupRef="e032a">
+    <Comment Source="PathLift">unmapped: ATMG00513 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: ATMG00513
+(Nad5 mitochondrial)</Comment><Graphics CenterX="1938.333333333324" CenterY="940.3333333333369" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00513" />
+  </DataNode>
+  <DataNode TextLabel="LOC4332532 (Os03g0295500)" GraphId="d7568" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4332532; transcripts=rna-XM_015775962.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G06310
+(Cox19-like CHCH family protein)</Comment><Graphics CenterX="485.33333333333115" CenterY="1109.3333333333387" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4332532" />
+  </DataNode>
+  <DataNode TextLabel="LOC4349322 (Os10g0551600)" GraphId="d7d6c" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4349322; transcripts=rna-XM_015757462.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G47570
+(NADH dehydrogenase ubiquinone 1 
+beta subcomplex subunit)</Comment><Graphics CenterX="1630.3333333333394" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4349322" />
+  </DataNode>
+  <DataNode TextLabel="LOC4331914 (Os03g0192400)" GraphId="d895f" Type="GeneProduct" GroupRef="bad6e">
+    <Comment Source="PathLift">candidate gene=gene-LOC4331914; transcripts=rna-XM_015777611.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: MEE4
+(GRIM-19 protein)</Comment><Graphics CenterX="611.6666666666699" CenterY="831.6666666666647" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4331914" />
+  </DataNode>
+  <DataNode TextLabel="LOC4327033 (Os01g0763300)" GraphId="dc3ff" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4327033; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G08060
+(furry)</Comment><Graphics CenterX="580.0000000000014" CenterY="372.00000000000085" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4327033" />
+  </DataNode>
+  <DataNode TextLabel="LOC4329443 (Os02g0508000)" GraphId="defbf" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4329443; transcripts=rna-XM_015767315.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CAL1
+(gamma carbonic anhydrase like 1)</Comment><Graphics CenterX="1100.6666666666629" CenterY="632.6666666666663" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4329443" />
+  </DataNode>
+  <DataNode TextLabel="hydron&#10;(H+)" GraphId="df38c" Type="Metabolite">
+    <Graphics CenterX="907.8461538461552" CenterY="363.9999999999995" Width="100.0" Height="30.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="LOC4345641 (Os08g0431500)" GraphId="dfb8e" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4345641; transcripts=rna-XM_015793064.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT4G16450
+(NADH-ubiquinone oxidoreductase)</Comment><Graphics CenterX="815.0000000000018" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4345641" />
+  </DataNode>
+  <DataNode TextLabel="N module" GraphId="e1d8c" Type="Complex">
+    <Graphics CenterX="315.0000000000004" CenterY="151.99999999999986" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="LOC4332639 (Os03g0313000)" GraphId="e4551" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4332639; transcripts=rna-XM_015772309.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT5G52840
+(NADH-ubiquinone 
+oxidoreductase-like protein)</Comment><Graphics CenterX="576.6666666666681" CenterY="588.3333333333361" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4332639" />
+  </DataNode>
+  <DataNode TextLabel="LOC4339476 (Os05g0542100)" GraphId="e5bed" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4339476; transcripts=rna-XM_015784208.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G46540
+(fiber)</Comment><Graphics CenterX="407.4166666666687" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4339476" />
+  </DataNode>
+  <DataNode TextLabel="LOC4346289 (Os08g0556600)" GraphId="e65a1" Type="GeneProduct" GroupRef="bdd38">
+    <Comment Source="PathLift">candidate gene=gene-LOC4346289; transcripts=rna-XM_015794785.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G47690
+(NADH-ubiquinone 
+oxidoreductase-like protein)</Comment><Graphics CenterX="1020.0000000000026" CenterY="1093.6666666666642" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4346289" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00990" GraphId="e7498" Type="GeneProduct">
+    <Comment Source="PathLift">unmapped: ATMG00990 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G07751 (nad3)
+(NADH:ubiquinone/plastoquinone 
+oxidoreductase, chain 3 protein)</Comment><Graphics CenterX="501.9999999999972" CenterY="940.9999999999976" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="Ensembl" ID="ATMG00990" />
+  </DataNode>
+  <DataNode TextLabel="AT1G76200" GraphId="e8067" Type="GeneProduct">
+    <Comment Source="PathLift">unmapped: AT1G76200 (指定参照FASTAに固定フィルタを通過するBLASTpヒットなし)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G76200
+(NADH dehydrogenase ubiquinone 1 
+beta subcomplex subunit)</Comment><Graphics CenterX="1020.0000000000025" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" FillColor="ffcccc" />
+    <Xref Database="Ensembl" ID="AT1G76200" />
+  </DataNode>
+  <DataNode TextLabel="LOC4334276 (Os03g0774200)" GraphId="e8aed" Type="GeneProduct" GroupRef="a31b5">
+    <Comment Source="PathLift">candidate gene=gene-LOC4334276; transcripts=rna-XM_015775118.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G79010
+(Alpha-helical ferredoxin)</Comment><Graphics CenterX="366.666666666668" CenterY="581.6666666666661" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4334276" />
+  </DataNode>
+  <DataNode TextLabel="LOC4346289 (Os08g0556600)" GraphId="ea5ac" Type="GeneProduct" GroupRef="bdd38">
+    <Comment Source="PathLift">candidate gene=gene-LOC4346289; transcripts=rna-XM_015794785.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G62790
+(NADH-ubiquinone 
+oxidoreductase-like protein)</Comment><Graphics CenterX="1020.0000000000026" CenterY="1043.6666666666679" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4346289" />
+  </DataNode>
+  <DataNode TextLabel="_NC_089035.1_001365" GraphId="ea922" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=_NC_089035.1_001365; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: nad9
+(NADH dehydrogenase subunit 9)</Comment><Graphics CenterX="366.666666666668" CenterY="472.33333333333024" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="_NC_089035.1_001365" />
+  </DataNode>
+  <DataNode TextLabel="LOC4331499 (Os03g0129900)" GraphId="eaf66" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4331499; transcripts=rna-XM_015772502.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G02050
+(NADH-ubiquinone 
+oxidoreductase B18 subunit)</Comment><Graphics CenterX="1426.6666666666727" CenterY="1053.0000000000036" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4331499" />
+  </DataNode>
+  <DataNode TextLabel="ATMG00600" GraphId="ece53" Type="GeneProduct" GroupRef="e032a">
+    <Comment Source="PathLift">unmapped: ATMG00600 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: ATMG00600
+(nad5 mitochondrial)</Comment><Graphics CenterX="1938.333333333324" CenterY="988.3333333333317" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl Plants" ID="ATMG00600" />
+  </DataNode>
+  <DataNode TextLabel="LOC4349513 (Os10g0579300)" GraphId="eda20" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4349513; transcripts=rna-XM_015759035.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT3G03100
+(NADH:ubiquinone 
+oxidoreductase, 17.2kDa subunit)</Comment><Graphics CenterX="576.6666666666681" CenterY="473.9999999999981" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4349513" />
+  </DataNode>
+  <DataNode TextLabel="LOC4339271 (Os05g0509200)" GraphId="f1a3a" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4339271; transcripts=rna-XM_015782046.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT4G02580
+(NADH-ubiquinone 
+oxidoreductase 24 kDa subunit)</Comment><Graphics CenterX="580.0000000000014" CenterY="200.6666666666663" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4339271" />
+  </DataNode>
+  <DataNode TextLabel="LOC4348925 (Os10g0481400)" GraphId="f4d5a" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4348925; transcripts=rna-XM_015757261.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G28430
+(zinc finger, C3HC4 type 
+family protein)</Comment><Graphics CenterX="1808.0" CenterY="264.0" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4348925" />
+  </DataNode>
+  <DataNode TextLabel="LOC4334276 (Os03g0774200)" GraphId="f6f84" Type="GeneProduct" GroupRef="a31b5">
+    <Comment Source="PathLift">candidate gene=gene-LOC4334276; transcripts=rna-XM_015775118.2; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G16700
+(Alpha-helical ferredoxin)</Comment><Graphics CenterX="366.666666666668" CenterY="531.6666666666661" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4334276" />
+  </DataNode>
+  <DataNode TextLabel="LOC4324435 (Os01g0732100)" GraphId="fca58" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4324435; transcripts=rna-XM_015765417.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G31490
+(neuronal acetylcholine 
+receptor subunit alpha-5)</Comment><Graphics CenterX="1426.6666666666727" CenterY="857.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4324435" />
+  </DataNode>
+  <DataNode TextLabel="LOC4324629 (Os01g0750800)" GraphId="be0fc" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4324629; transcripts=rna-XM_015766292.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT2G31490
+(neuronal acetylcholine 
+receptor subunit alpha-5)</Comment><Graphics CenterX="1450.6666666666727" CenterY="873.4166666666658" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" />
+    <Xref Database="assembly" ID="gene-LOC4324629" />
+  </DataNode>
+  <DataNode TextLabel="LOC4324987 (Os01g0908400)" GraphId="ffac8" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4324987; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: AT1G67785
+(uncharacterized protein)</Comment><Graphics CenterX="370.0000000000013" CenterY="314.6666666666671" Width="200.0" Height="50.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4324987" />
+  </DataNode>
+  <DataNode TextLabel="LOC4344079 (Os07g0642900)" GraphId="ceb8c" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4344079; transcripts=rna-XM_015789841.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA2
+(gamma carbonic anhydrase 2)</Comment><Graphics CenterX="1308.000000000002" CenterY="574.0000000000017" Width="200.0" Height="50.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4344079" />
+  </DataNode>
+  <DataNode TextLabel="LOC4351619 (Os12g0169700)" GraphId="ddb40" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4351619; transcripts=rna-NM_001423338.1; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA2
+(gamma carbonic anhydrase 2)</Comment><Graphics CenterX="1332.000000000002" CenterY="590.0000000000017" Width="200.0" Height="50.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4351619" />
+  </DataNode>
+  <DataNode TextLabel="LOC4329443 (Os02g0508000)" GraphId="ae561" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4329443; transcripts=rna-XM_015767315.3; routes=override,symbol</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CAL2
+(gamma carbonic anhydrase-like 2)</Comment><Graphics CenterX="1308.000000000002" CenterY="632.6666666666663" Width="200.0" Height="50.0" ZOrder="32770" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4329443" />
+  </DataNode>
+  <DataNode TextLabel="LOC4327904 (Os01g0283100)" GraphId="f1b8e" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4327904; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA3
+(gamma carbonic anhydrase 3)</Comment><Graphics CenterX="1204.666666666661" CenterY="699.3333333333335" Width="200.0" Height="50.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4327904" />
+  </DataNode>
+  <DataNode TextLabel="LOC4329443 (Os02g0508000)" GraphId="b2429" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4329443; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA3
+(gamma carbonic anhydrase 3)</Comment><Graphics CenterX="1228.666666666661" CenterY="715.3333333333335" Width="200.0" Height="50.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4329443" />
+  </DataNode>
+  <DataNode TextLabel="LOC4344079 (Os07g0642900)" GraphId="e6d0f" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4344079; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA3
+(gamma carbonic anhydrase 3)</Comment><Graphics CenterX="1252.666666666661" CenterY="731.3333333333335" Width="200.0" Height="50.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4344079" />
+  </DataNode>
+  <DataNode TextLabel="LOC4351619 (Os12g0169700)" GraphId="b37bb" Type="GeneProduct">
+    <Comment Source="PathLift">candidate gene=gene-LOC4351619; transcripts=; routes=override</Comment><Comment Source="PathLift-input-preparation">original TextLabel: GAMMA CA3
+(gamma carbonic anhydrase 3)</Comment><Graphics CenterX="1276.666666666661" CenterY="747.3333333333335" Width="200.0" Height="50.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="assembly" ID="gene-LOC4351619" />
+  </DataNode>
+  <DataNode TextLabel="Q module" GraphId="df2c5" Type="Complex">
+    <Graphics CenterX="315.0000000000004" CenterY="428.6666666666655" Width="90.0" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="PP module" GraphId="dd196" Type="Complex">
+    <Graphics CenterX="163.66666666666652" CenterY="743.3333333333334" Width="90.0" Height="25.0" ZOrder="32773" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="PD module" GraphId="f7c0d" Type="Complex">
+    <Graphics CenterX="1886.9999999999868" CenterY="743.3333333333335" Width="90.0" Height="25.0" ZOrder="32774" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="CA domain" GraphId="f8a02" Type="Complex">
+    <Graphics CenterX="1039.6666666666683" CenterY="530.6666666666667" Width="90.0" Height="25.0" ZOrder="32775" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="hydron&#10;(H+)" GraphId="e714f" Type="Metabolite">
+    <Graphics CenterX="849.7692307692323" CenterY="672.9999999999987" Width="100.0" Height="30.0" ZOrder="32776" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="hydron&#10;(H+)" GraphId="a57d7" Type="Metabolite">
+    <Graphics CenterX="849.7692307692323" CenterY="1182.9999999999982" Width="100.0" Height="30.0" ZOrder="32777" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="Candidate plant-specific subunits" GraphId="adef8" Type="Complex">
+    <Graphics CenterX="1561.6666666666683" CenterY="144.66666666666674" Width="200.0" Height="25.0" ZOrder="32778" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ATMG01120" GraphId="cb46d" Type="GeneProduct" GroupRef="e1a77">
+    <Comment Source="PathLift">unmapped: ATMG01120 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: ATMG01120
+(NADH dehydrogenase subunit 1)</Comment><Graphics CenterX="294.33333333333394" CenterY="990.9999999999978" Width="200.0" Height="50.0" ZOrder="32779" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG01120" />
+  </DataNode>
+  <DataNode TextLabel="ATMG01275" GraphId="ae9f9" Type="GeneProduct" GroupRef="e1a77">
+    <Comment Source="PathLift">unmapped: ATMG01275 (指定GFF/FASTAは核ゲノム注釈のみ; ミトコンドリア由来の遺伝子は参照対象外)</Comment><Comment Source="PathLift-input-preparation">original TextLabel: ATMG01275
+(NADH dehydrogenase subunit 1)</Comment><Graphics CenterX="294.33333333333394" CenterY="1040.9999999999977" Width="200.0" Height="50.0" ZOrder="32780" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ATMG01275" />
+  </DataNode>
+  <Interaction GraphId="id7e08a5f4">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="5.0">
+      <Point X="849.7692307692323" Y="687.9999999999987" GraphRef="e714f" RelX="0.0" RelY="1.0" />
+      <Point X="849.7692307692323" Y="1167.9999999999982" GraphRef="a57d7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8d1af5ec">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="700.0000000000009" Y="281.3749999999999" GraphRef="a8ba2" RelX="1.0" RelY="0.0" />
+      <Point X="778.6666666666699" Y="281.3333333333333" GraphRef="b6465" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb467ae77">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="778.6666666666699" Y="237.66666666666708" GraphRef="bad11" RelX="0.0" RelY="1.0" />
+      <Point X="778.6666666666699" Y="348.9999999999995" GraphRef="a1ed7" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.3922155688622748" Shape="None" GraphId="b6465" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Shape GraphId="a8ba2">
+    <Graphics CenterX="475.0000000000009" CenterY="281.3749999999999" Width="450.0" Height="253.25000000000023" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b0729">
+    <Graphics CenterX="1225.0833333333317" CenterY="944.7500000000001" Width="2256.5" Height="403.83333333333326" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b72d7">
+    <Graphics CenterX="1694.75" CenterY="269.75" Width="502.5" Height="244.5" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="e64f0">
+    <Graphics CenterX="473.3333333333335" CenterY="579.4999999999994" Width="450.0" Height="314.3333333333346" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f31ae">
+    <Graphics CenterX="1204.4166666666592" CenterY="633.3333333333321" Width="456.49999999999955" Height="201.33333333333323" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="a31b5" Style="Group" />
+  <Group GroupId="e1a77" Style="Group" />
+  <Group GroupId="bad6e" Style="Group" />
+  <Group GroupId="bdd38" Style="Group" />
+  <Group GroupId="be375" Style="Group" />
+  <Group GroupId="bf896" Style="Group" />
+  <Group GroupId="e032a" Style="Group" />
+  <Group GroupId="aaf24" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <ns1:PublicationXref rdf:id="ec5">
+      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26801215</ns1:ID>
+      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
+      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant mitochondrial Complex I composition and assembly: A review.</ns1:TITLE>
+      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</ns1:SOURCE>
+      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</ns1:YEAR>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subrahmanian N</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remacle C</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamel PP</ns1:AUTHORS>
+    </ns1:PublicationXref>
+    <ns1:PublicationXref rdf:id="b23">
+      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24561573</ns1:ID>
+      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
+      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The life of plant mitochondrial complex I.</ns1:TITLE>
+      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrion</ns1:SOURCE>
+      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</ns1:YEAR>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braun HP</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binder S</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brennicke A</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eubel H</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fernie AR</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finkemeier I</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klodmann J</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">König AC</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kühn K</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyer E</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obata T</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwarzländer M</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takenaka M</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zehrmann A</ns1:AUTHORS>
+    </ns1:PublicationXref>
+    <ns1:PublicationXref rdf:id="e66">
+      <ns1:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20197505</ns1:ID>
+      <ns1:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</ns1:DB>
+      <ns1:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internal architecture of mitochondrial complex I from Arabidopsis thaliana.</ns1:TITLE>
+      <ns1:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant Cell</ns1:SOURCE>
+      <ns1:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</ns1:YEAR>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klodmann J</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunderhaus S</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nimtz M</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jänsch L</ns1:AUTHORS>
+      <ns1:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braun HP</ns1:AUTHORS>
+    </ns1:PublicationXref>
+  </Biopax>
+</Pathway>
