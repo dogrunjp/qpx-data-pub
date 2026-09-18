@@ -44,3 +44,14 @@ GSE201154はヒト食道上皮のbulk RNA-seqデータ、GSE189149は食物ア�
 本GPMLは、**「正しいパスウェイを完成させたもの」ではなく、「正しいパスウェイを理解・整理するために作成した試作モデル」**です。
 
 また、付属のRNA-seqデータは研究解析用の最終データではなく、**QPXでの可視化・動作確認を目的としたテストデータ**として収録しています。
+
+## 参考文献
+
+* https://doi.org/10.18452/21632
+* https://doi.org/10.1038/ni.f.216
+* https://doi.org/10.1016/j.febslet.2010.08.006
+
+## データソース
+
+* NCBI GEO: [GSE189149](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189149)
+* NCBI GEO: [GSE201154](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201154)
